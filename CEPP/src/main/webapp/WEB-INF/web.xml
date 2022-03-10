@@ -19,4 +19,24 @@
     <servlet-name>UserLogin</servlet-name>
     <url-pattern>/UserLogin</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserInfoServlet</display-name>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>web.cepp.Web.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/userinfo</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>FormServlet</display-name>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>web.cepp.Web.FormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/form</url-pattern>
+  </servlet-mapping>
 </web-app>
