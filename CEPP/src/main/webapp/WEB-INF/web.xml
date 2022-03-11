@@ -27,7 +27,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>UserInfoServlet</servlet-name>
-    <url-pattern>/userinfo</url-pattern>
+    <url-pattern>/userInfo</url-pattern>
   </servlet-mapping>
   <servlet>
     <description></description>
@@ -41,12 +41,17 @@
   </servlet-mapping>
   <servlet>
     <description></description>
+
     <display-name>UserRegistrationServlet</display-name>
     <servlet-name>UserRegistrationServlet</servlet-name>
     <servlet-class>web.cepp.Web.UserRegistrationServlet</servlet-class>
   </servlet>
+  
   <servlet-mapping>
     <servlet-name>UserRegistrationServlet</servlet-name>
-    <url-pattern>/UserRegistrationServlet</url-pattern>
+    <url-pattern>UserRegistrationServlet</url-pattern>
   </servlet-mapping>
+    
+  
+  
 </web-app>
