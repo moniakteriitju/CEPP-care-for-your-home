@@ -1,8 +1,6 @@
 package web.cepp.Model;
 
 public class UserRegistrationMod {
-	
-	
 	int id;
 	String name;
 	String address;
@@ -77,9 +75,6 @@ public class UserRegistrationMod {
 				+ phone_number + ", email_id=" + email_id + ", gender=" + gender + ", type=" + type + ", age=" + age
 				+ "]";
 	}
-	
-	
-	
 	
 	
 
