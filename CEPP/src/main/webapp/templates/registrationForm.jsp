@@ -37,31 +37,98 @@
                 <div class="col-xl-6">  
                   <div class="card-body p-md-5 text-black">  
                     <h3 class="mb-5 text-uppercase"> registration form </h3>  
+                    
+                    
                    
-                    <form method="post">
+                    
+                     <form action="/CEPP/UserRegistrationServlet" method="POST">
+  <label for="id">ID:</label><br>
+  <input type="text" id="id" name="id"><br>
+  
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br>
+  
+  <label for="phone_number">Phone Number:</label><br>
+  <input type="text" id="phone_number" name="phone_number"><br>
+  
+  <label for="email_id">Email ID:</label><br>
+  <input type="text" id="email_id" name="email_id"><br>
+  
+  <label for="gender">Gender:</label><br>
+  <input type="text" id="gender" name="gender"><br>
+  
+  <label for="type">Type:</label><br>
+  <input type="text" id="type" name="type"><br>
+  
+    <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age"><br><br>
+  
+  
+  
+  
+  <input type="submit" id="submit" name="Submit" value="Submit">
+</form> 
+
+
+
+
+
+
+
+<!--  
+            
+                   
+                    <form action="/CEPP/UserRegistrationServlet" method="POST">
+                    
                     
                     
                      <div class="form-outline mb-4">  
-                      <input type="text" id="form3Example8" class="form-control form-control-lg" />  
-                      <label class="form-label" for="form3Example8"> Name </label>  
+                      <input type="text" id="id" class="form-control form-control-lg" />  
+                      <label class="form-label" for="id"> ID </label>  
+                    </div> 
+                    
+                     <div class="form-outline mb-4">  
+                      <input type="text" id="name" class="form-control form-control-lg" />  
+                      <label class="form-label" for="name"> Name </label>  
                     </div> 
                      
                      
                    
                     <div class="form-outline mb-4">  
-                      <input type="text" id="form3Example8" class="form-control form-control-lg" />  
-                      <label class="form-label" for="form3Example8"> Address </label>  
+                      <input type="text" id="address" class="form-control form-control-lg" />  
+                      <label class="form-label" for="address"> Address </label>  
                     </div> 
                      
                      <div class="form-outline mb-4">  
-                      <input type="text" id="form3Example8" class="form-control form-control-lg" />  
-                      <label class="form-label" for="form3Example8"> Phone Number </label>  
+                      <input type="text" id="phone_number" class="form-control form-control-lg" />  
+                      <label class="form-label" for="phone_number"> Phone Number </label>  
                     </div>  
                     
                      <div class="form-outline mb-4">  
-                      <input type="text" id="form3Example97" class="form-control form-control-lg" />  
-                      <label class="form-label" for="form3Example97"> Email ID </label>  
+                      <input type="text" id="email_id" class="form-control form-control-lg" />  
+                      <label class="form-label" for="email_id">Email ID  </label>  
                     </div>
+                    
+                     <div class="form-outline mb-4">  
+                      <input type="text" id="gender" class="form-control form-control-lg" />  
+                      <label class="form-label" for="gender"> Gender </label>  
+                    </div>
+                    
+                    
+                     <div class="form-outline mb-4">  
+                      <input type="text" id="type" class="form-control form-control-lg" />  
+                      <label class="form-label" for="type"> Type </label>  
+                    </div>
+                    
+                    
+                     
+                    
+                    
+                    
+                    
                     
                     <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">  
                       <h6 class="mb-0 me-4"></h6> 
@@ -74,7 +141,7 @@
                           id="femaleGender"  
                           value="option1"  
                         />  
-                        <label class="form-check-label" for="femaleGender"> Female </label>  
+                        <label class="form-check-label" for=""> Female </label>  
                       </div>  
                       <div class="form-check form-check-inline mb-0 me-4">  
                         <input  
@@ -109,15 +176,29 @@
                         </select>  
                       </div>  
                     </div>  
+                    
+                   
+                    
+                    
+                    
+                    
+                    
+                    
                     <div class="form-outline mb-4">  
                       <input type="text" id="form3Example9" class="form-control form-control-lg" />  
                       <label class="form-label" for="form3Example9"> Age </label>  
                     </div>  
                     
+                    
+                  
+                    
                     <div class="form-outline mb-4 custom-file">
                          <input type="file" class="custom-file-input" id="customFile">
                          <label class="custom-file-label" for="customFile">Choose Profile Picture</label>
                     </div>
+                    
+                    
+                    
                    
                     
                      
@@ -127,6 +208,12 @@
                     
                     
                     </form>
+                    
+                    -->
+                    
+               
+                    
+                    
                     
                   </div>  
                 </div>  

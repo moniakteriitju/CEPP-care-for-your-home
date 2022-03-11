@@ -15,11 +15,11 @@ public class DBConnectionManager {
             String driverClass = "com.mysql.cj.jdbc.Driver";
             String dbUrl = "jdbc:mysql://localhost/" + dbName +  "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
             String dbUser = "root";
-            String dbPass = "hello";
+            String dbPass = "Tanbin1215*";
             
             Class.forName(driverClass);
             connection = DriverManager.getConnection(dbUrl, dbUser, dbPass);
-            System.out.println("Connected");
+           // System.out.println("Connected");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -56,7 +56,7 @@ public class DBConnectionManager {
         }
     }
     
-//    public static void main(String args[]) {
-//    	Connection connection = getConnection();
-//    }
+  // public static void main(String args[]) {
+    //Connection connection = getConnection();
+  // }
 }

@@ -39,4 +39,14 @@
     <servlet-name>FormServlet</servlet-name>
     <url-pattern>/form</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserRegistrationServlet</display-name>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <servlet-class>web.cepp.Web.UserRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegistrationServlet</servlet-name>
+    <url-pattern>/UserRegistrationServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
