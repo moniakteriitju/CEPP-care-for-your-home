@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header
+{
+    height:10vh;
+}
+.navbar-style
+{
+   
+    background-color:red;
+}
+.icon-bar{
+    background-color:blue;
+}
+.div-align{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    background-color: aqua;
+
+  }
+  .h11 {
+    width: 50%;
+
+    margin: auto;
+    color:aliceblue;
+    text-align: center;
+    padding: 39px 0;
+    font-weight: bolder;
+
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+b {
+    font-size: 150%;
+}
+
+
+#tt{
+    color:aliceblue;
+    font-weight: bold;
+}
+
+body {
+position: relative;
+}
+
+.color-over-ride
+{
+background-color: aqua;
+}
+.align-div{
+    width:65%;
+    height:80%;
+    margin-left: 15%;
+    margin-right: 85%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.resume-left-color{
+    background-color:darkslategray;
+    color:white;
+}
+.resume-right-color{
+    color:black;
+    background-color:azure;
+    
+}
+.inner-div{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.table-pad{
+    width:90%;
+    margin:auto;
+    background-color: cadetblue;
+}
+.tb{
+    width:90%;
+    height:20%;
+    margin-left:auto;
+    margin-bottom: auto;
+
+
+}
+.hh5{
+    color:rgb(189, 28, 28);
+}
+.hh4{
+    color:aqua;
+}
+.contact-container{
+    background-color: black;
+    color:white;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;;
+}
+.contact-container-f{
+    border-radius: 15px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: black;
+    padding:57px;
+    color:aliceblue;
+    text-align: center;
+}
+.dv1{
+    background-color:rgb(219, 219, 174);
+    background-image: url('/images/skill_bg.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dv2{
+    background-color:rgb(144, 169, 170);
+    padding:30px;
+    background-image: url('/images/experience_bg4.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+}
+.dv3{
+    background-color:lightsteelblue;
+}
+ul.nav-pills {
+    top: 20px;
+    position: fixed;
+  }
+  div.col-8 div {
+    height:auto;
+  }
+  .card-align{
+      margin: auto;
+      height:100%;
+  }
+  .carousel-inner img {
+    width: 90%;
+    height: 40%;
+  }
+  .con-padd{
+      width:70%;
+      height:70%;
+      margin:auto;
+      padding:100px;
+  }
+  i{
+      padding:10px;
+  }
+  .c-color{
+      background-color: black;
+  }
+  .progress-width{
+      width:70%;
+      margin-left: 0%;
+  }
+  .nav-w{
+      width:70%;
+  }
+  .p-bar1{
+      background-color:indigo;
+
+  }
+  .p-bar2{
+    background-color:brown;
+
+}
+.left-color{
+    background-color:none;
+    
+}
+.con-paddd{
+    padding:110px;
+   color:aliceblue;
+    width:100%;
+
+}
+.right-color{
+    background-color:none;
+}
+.con-paddd2{
+    padding:110px;
+    color:darkred;
+    width:100%;
+
+}
+.img-align{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-bar3{
+background-color:cornflowerblue;
+}
+.c-col{
+    background-color:black;
+    color:white;
+}
+.btn-align{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project-pad{
+    padding:85px;
+}
+.project-card-color1{
+    background-color: lightsteelblue;
+}
+.project-card-color2{
+    background-color:lavenderblush;
+}
+
+.c-coll{
+    background-color:lightblue;
+    color:black;
+
+}
+.col-padd{
+    padding:100px;
+}
+.nav-color{
+    background-color:rgb(95, 156, 156);
+    font-size: larger;
+}

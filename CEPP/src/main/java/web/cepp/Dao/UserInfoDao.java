@@ -53,9 +53,9 @@ public class UserInfoDao {
 		return userList;
 	}
 	
-	public static void main(String args[]) {
-		insertQuery(420, "tani@gmail.com", "hisajjad");
-		getQuery();
+	//public static void main(String args[]) {
+		//insertQuery(420, "tani@gmail.com", "hisajjad");
+		//getQuery();
 	}
 
 }
