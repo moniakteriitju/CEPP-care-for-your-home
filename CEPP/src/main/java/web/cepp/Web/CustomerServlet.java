@@ -20,7 +20,7 @@ import java.util.List;
 public class CustomerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
      
-	private customerDao CustomerDao = new customerDao();
+	//private customerDao customerDao = new customerDao();
 	/**
      * @see HttpServlet#HttpServlet()
      */
@@ -35,11 +35,13 @@ public class CustomerServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		List<Customer> CustomerList = customerDao.getQuery();
+		List<Customer> userList = customerDao.getQuery();
+		
+		System.out.println(userList);
 
 		//request.setAttribute("message", "Hi Tani! You are not a good girl.");
-		request.setAttribute("CustomerList", CustomerList);
-		request.getRequestDispatcher("/Customer_Index.jsp").forward(request, response);
+		request.setAttribute("userList", userList);
+		request.getRequestDispatcher("/Customer_index.jsp").forward(request, response);
         
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
@@ -50,13 +52,13 @@ public class CustomerServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		int id = Integer.parseInt(request.getParameter("id"));
-		String Name = request.getParameter("name");
-		String Address = request.getParameter("address");
-		int Phone = Integer.parseInt(request.getParameter("phone"));
-		int Plumber = Integer.parseInt(request.getParameter("plumber"));
-		int Carpentar = Integer.parseInt(request.getParameter("carpentar"));
-		int Painter = Integer.parseInt(request.getParameter("painter"));
-        int Electrician = Integer.parseInt(request.getParameter("electrician"));
+		String name = request.getParameter("Name");
+		String address = request.getParameter("Address");
+		int phone = Integer.parseInt(request.getParameter("Phone"));
+		int plumber = Integer.parseInt(request.getParameter("Plumber"));
+		int carpentar = Integer.parseInt(request.getParameter("Carpentar"));
+		int painter = Integer.parseInt(request.getParameter("Painter"));
+        int electrician = Integer.parseInt(request.getParameter("Electrician"));
         
 		/*
 		 * Customer customer = new Customer(); // customer.setid(id);
@@ -71,7 +73,7 @@ public class CustomerServlet extends HttpServlet {
 		 * response.sendRedirect("");
 		 */
         
-        customerDao.insertQuery(id, Name, Address, Phone, Plumber, Carpentar, Painter, Electrician);
+        customerDao.insertQuery(id, name, address, phone, plumber, carpentar, painter, electrician);
 		doGet(request, response);
         
 	}

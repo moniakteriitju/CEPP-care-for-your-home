@@ -10,6 +10,7 @@ public class Customer {
     private int Painter;
     private int Electrician;
     
+    
 	public int getId() {
 		return id;
 	}
@@ -70,11 +71,12 @@ public class Customer {
 		this.Painter = painter;
 		this.Electrician = electrician;
 	}
-	public Customer(int int1, String string, String string2, int int2, int int3, int int4, int int5) {
-		// TODO Auto-generated constructor stub
-		
+	@Override
+	public String toString() {
+		return "Customer [id=" + id + ", Name=" + Name + ", Address=" + Address + ", Phone=" + Phone + ", Plumber="
+				+ Plumber + ", Carpentar=" + Carpentar + ", Painter=" + Painter + ", Electrician=" + Electrician + "]";
 	}
-	
+    
 	
 	
     
