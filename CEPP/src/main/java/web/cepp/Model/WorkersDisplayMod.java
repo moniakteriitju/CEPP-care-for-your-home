@@ -71,11 +71,9 @@ public class WorkersDisplayMod {
 	}
 	@Override
 	public String toString() {
-		return "UserRegistrationMod [id=" + id + ", name=" + name + ", address=" + address + ", phone_number="
+		return "WorkersDisplayMod [id=" + id + ", name=" + name + ", address=" + address + ", phone_number="
 				+ phone_number + ", email_id=" + email_id + ", gender=" + gender + ", type=" + type + ", age=" + age
 				+ "]";
 	}
-	
-	
 
 }
